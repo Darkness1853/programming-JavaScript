@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from functools import wraps
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '2QR3WTYGYUIJ;OOUYWT5Q32767YIUOUO6756DR6YU'
+app.config['SECRET_KEY'] = 'Kr4Rt0V–mQPyIVAg/YRnC*#l<>*!sn'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = 'videos'
